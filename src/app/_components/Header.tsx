@@ -1,12 +1,12 @@
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { GithubIcon } from "../../utils/svg/GithubIcon";
 import { Section } from "./Section";
-import { GithubIcon } from "./icons/GithubIcon";
 
 export const Header = () => {
   return (
-    <header className="xlg:sticky xlg:top-0 py-4">
+    <header className="py-4 xlg:sticky xlg:top-0">
       <Section isLargeScreen={true} className="flex items-baseline">
         <h1 className="text-lg font-bold text-primary">TOMA.com</h1>
         <div className="flex-1" />
