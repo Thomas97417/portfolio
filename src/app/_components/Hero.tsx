@@ -1,8 +1,8 @@
 "use client";
 
 import { useRef } from "react";
+import { Code } from "../../utils/Code";
 import { BackgroundCircles } from "./BackgroundCircles";
-import { Code } from "./Code";
 import { Section } from "./Section";
 
 export const Hero = () => {
