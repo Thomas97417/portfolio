@@ -3,6 +3,7 @@ import ContactMe from "./_components/ContactMe";
 import Footer from "./_components/Footer";
 import { Header } from "./_components/Header";
 import { Hero } from "./_components/Hero";
+import NewStatus from "./_components/NewStatus";
 import Skills from "./_components/Skills";
 import Status from "./_components/Status";
 import SubSkills from "./_components/SubSkills";
@@ -15,13 +16,17 @@ export default function Home() {
       <Hero />
       <Spacing size="xxl" />
       <Status />
-      <Spacing size="sm" />
+
+      <Spacing size="xl" />
+      <NewStatus />
+
+      <Spacing size="xl" />
       <Skills />
-      <Spacing size="sm" />
+      <Spacing size="md" />
       <SubSkills />
-      <Spacing size="sm" />
+      <Spacing size="xl" />
       <ContactMe />
-      <Spacing size="sm" />
+      <Spacing size="md" />
       <Footer />
     </main>
   );

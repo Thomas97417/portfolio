@@ -8,7 +8,7 @@ import { Section } from "./Section";
 const Skills = () => {
   return (
     <Section className="flex flex-col items-start gap-4">
-      <Heading tag="Skills" />
+      <Heading tag="Skills" className="mb-8" />
       <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         I love working on
       </h2>
